@@ -19,10 +19,12 @@ set number
 set clipboard=unnamedplus
 
 execute pathogen#infect()
-set guifont=Monospace\ 14
+
 set background=dark
 colorscheme desert
-:au FocusLost * :wa
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set laststatus=2
+
 
 nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>
