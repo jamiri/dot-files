@@ -5,7 +5,7 @@ set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
 "" Whitespace
-set nowrap                      " don't wrap lines
+set wrap                        " wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
@@ -24,7 +24,7 @@ set background=dark
 colorscheme desert
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set laststatus=2
-
+set guifont=Monospace\ 14
 
 nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>

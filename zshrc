@@ -39,6 +39,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/home/javad/.rvm/gems/ruby-1.9.3-p374/bin:/home/javad/.rvm/gems/ruby-1.9.3-p374@global/bin:/home/javad/.rvm/rubies/ruby-1.9.3-p374/bin:/home/javad/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/javad/.rvm/bin
 
+# add p4merge to the path
+PATH=$PATH:~/apps/p4v-2012.3.567045/bin
 
 # Change directory to sites
 c() { cd ~/sites/$1; }
@@ -47,3 +49,4 @@ compdef _c c
 
 # Open in file explorer
 o() { nautilus --browser $1 }
+
