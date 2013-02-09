@@ -16,13 +16,16 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 set number
-set guifont=Monospace\ 12
+set clipboard=unnamedplus
+
 execute pathogen#infect()
-set background=light
-colorscheme murphy
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set guifont=Monospace\ 14
+set background=dark
+colorscheme desert
+:au FocusLost * :wa
 
 nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>
 nmap <a-Down> <c-w><Down>
 nmap <a-Up> <c-w><Up>
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
