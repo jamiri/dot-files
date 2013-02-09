@@ -18,9 +18,10 @@ set smartcase                   " ... unless they contain at least one capital l
 set number
 set guifont=Monospace\ 12
 execute pathogen#infect()
-set background=light
-colorscheme murphy
+set background=dark
+colorscheme desert
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set laststatus=2
 
 nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>
