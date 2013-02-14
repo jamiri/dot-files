@@ -20,6 +20,9 @@ set clipboard=unnamedplus
 
 execute pathogen#infect()
 
+" Autosave on focus lost
+autocmd BufLeave,FocusLost * silent! wall
+
 set background=dark
 colorscheme desert
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
@@ -30,4 +33,3 @@ nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>
 nmap <a-Down> <c-w><Down>
 nmap <a-Up> <c-w><Up>
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim

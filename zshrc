@@ -50,3 +50,4 @@ compdef _c c
 # Open in file explorer
 o() { nautilus --browser $1 }
 
+source $HOME/.rvm/scripts/rvm
