@@ -24,12 +24,17 @@ execute pathogen#infect()
 autocmd BufLeave,FocusLost * silent! wall
 
 set background=dark
-colorscheme desert
+colorscheme inkpot
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set laststatus=2
-set guifont=Monospace\ 14
+set guifont=pragmata\ TT\ 14
 
 nmap <a-Right> <c-w><Right>
 nmap <a-Left> <c-w><Left>
 nmap <a-Down> <c-w><Down>
 nmap <a-Up> <c-w><Up>
+
+nnoremap <silent> <F9> :TagbarToggle<CR>
+
+let g:SuperTabMappingForward = '<c-space>'
+let g:SuperTabMappingBackward = '<s-c-space>'

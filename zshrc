@@ -10,7 +10,12 @@ ZSH_THEME="sorin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias gs="git status"
+alias gck="git checkout"
+alias gcm="git commit -am"
+alias gl="git log"
+alias gpush="git stash"
+alias gpop="git stash apply"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
