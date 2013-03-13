@@ -23,8 +23,9 @@ execute pathogen#infect()
 " Autosave on focus lost
 autocmd BufLeave,FocusLost * silent! wall
 
+set cursorline
 set background=dark
-colorscheme inkpot
+colorscheme guepardo
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set laststatus=2
 set guifont=pragmata\ TT\ 14
