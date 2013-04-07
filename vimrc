@@ -24,8 +24,8 @@ execute pathogen#infect()
 autocmd BufLeave,FocusLost * silent! wall
 
 set cursorline
-set background=dark
-colorscheme guepardo
+set background=light
+colorscheme solarized
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set laststatus=2
 set guifont=pragmata\ TT\ 14
